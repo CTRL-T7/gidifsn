@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Georgia";
+    src: 
+     url("./Georgia.ttf") format("truetype");
+    font-weight: bold;
+    }
+  @font-face {
+    font-family: "Helvetica";
+    src: url('./Helvetica.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "HelveticaBold";
+    src: url('./Helvetica-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "GeorgiaBold";
+    src: url('./georgia-grassetto.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "HelveticaLight";
+    src: url('./helvetica-light-587ebe5a59211.ttf') format('truetype');
+  }
+  .ticketpg {
+    text-align: center;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  .ticketheader{
+    display: flex;
+    padding: 44px 20px
+  }
+  .headertitle{
+    margin-left: 83px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    width: 108px;
+    height: 30px;
+  }
+  .ticketform{
+    padding: 32px 20px;
+  }
+  .emaildivticket{
+    margin-bottom: 26px;
+  }
+  .emailticket{
+    color: #000000;
+    width: 325px;
+    height: 50px;
+    border: 1px solid #97A0A9;
+    border-radius: 5px;
+    text-align: left;
+    padding: 0px 5px;
+    font-family: 'Helvetica';
+    
+  }
+  .cursor-pointer{
+    background-color:  #FFC400;
+    color: #000000;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bolder;
+  }
+  .ticketamount{
+    width: 93px;
+    height: 49px;
+    border: none;
+    padding: 0px 5px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    -moz-appearance:none;
+  }
+  .flex{
+    margin-top: 26px;
+  }
+  .ticket{
+    color: #495A69;
+    background-color: #ffffff;
+    width: 335px;
+    height: 50px;
+    border: 1px solid #97A0A9;
+    border-radius: 5px;
+  }
+  .label{
+    color: #495A69;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .selectticket{
+    margin-bottom: 26px;
+  }
+  .sidediv{
+    margin-top: 26px;
+  }
+  .sidep{
+    font-size: 14px;
+    font-family: 'Helvetica';
+  }
+  .errormsg {
+    color: rgb(253, 68, 68);
+    position: relative;
+    bottom: 17px;
+    left: 10px;
+    font-size: 11px;
+    font-family: 'Helvetica' ;
+  }
+  .errormsgradio {
+    color: rgb(253, 68, 68);
+    position: relative;
+    bottom: -5px;
+    left: 10px;
+    font-size: 11px;
+    font-family: 'Helvetica' ;
+  }
+  .radio{
+    margin-top: 18px;
+    width: 19px;
+    height: 19px;
+    color: #FFC400;
+    outline: #FFC400;
+    
+  }
+  .back{
+    background: url('./Vector.svg');
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 5px;
+  }
+  label{
+    font-size: 13px;
+    margin-left: 16px;
+    margin-right: 84px;
+    padding-top: 0px;
+  }
+  .submit{
+    margin-top: 46px;
+    width: 333px;
+    height: 70px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    background-color: #FFC400;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+  }
+
+  

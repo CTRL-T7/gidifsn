@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Georgia";
+    src: 
+     url("./Georgia.ttf") format("truetype");
+    font-weight: bold;
+    }
+  @font-face {
+    font-family: "Helvetica";
+    src: url('./Helvetica.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "HelveticaBold";
+    src: url('./Helvetica-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "GeorgiaBold";
+    src: url('./georgia-grassetto.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "HelveticaLight";
+    src: url('./helvetica-light-587ebe5a59211.ttf') format('truetype');
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+.teamdiv{
+    margin-bottom: 26px;
+  }
+  .teamname{
+    color: #000000;
+    width: 325px;
+    height: 50px;
+    border: 1px solid #97A0A9;
+    border-radius: 5px;
+    text-align: left;
+    padding: 0px 5px;
+    font-family: 'Helvetica';
+    
+  }
+  
+
+  @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) {
+
+    .ticketform{
+        padding: 0px 0px;
+    }
+
+  }
+  @media only screen 
+  and (device-width: 428px) 
+  and (device-height: 926px) 
+  and (-webkit-device-pixel-ratio: 3) {
+      .ticketform{
+        padding: 0px 45px;
+      }
+  }
+
+  @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      .ticketform{
+        padding: 0px 45px;
+      }
+     }
